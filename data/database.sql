@@ -59,5 +59,5 @@ CREATE OR REPLACE VIEW view_persons AS
 SELECT p.id, person_name, first_name, zip_code, city, profession_name
         , CONCAT_WS(' ', first_name, person_name) as full_name
         FROM persons AS p 
-                LEFT JOIN addresses ON p.id = person_id;
-                INNER JOIN professions ON professions.id = profession_id
+                LEFT JOIN addresses ON p.id = person_id
+                INNER JOIN professions ON professions.id = profession_id;
