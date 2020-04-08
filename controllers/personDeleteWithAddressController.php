@@ -16,7 +16,7 @@ $statement = $pdo->prepare($sql);
 $statement->execute([$id]);
 
 //Suppression de la personnes
-$sql = "DELETE FROM persons WHERE person_id = ?";
+$sql = "DELETE FROM persons WHERE id = ?";
 
 //Préparation de la requête
 $statement = $pdo->prepare($sql);
