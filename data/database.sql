@@ -1,11 +1,11 @@
 -- Suppression de la base de données si elle existe
-DROP DATABASE IF EXISTS formation_php;
+DROP DATABASE IF EXISTS driifti_formation;
 
 -- Création de la base de données
-CREATE DATABASE formation_php
+CREATE DATABASE driifti_formation
     DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 
-USE formation_php;
+USE driifti_formation;
 
 -- Table des utilisateurs
 CREATE TABLE users (

@@ -1,9 +1,9 @@
 <?php
 
 //Infos de connexion à la base de données
-define("DSN", "mysql:host=localhost;dbname=formation_php;charset=utf8");
-define("DB_USER", "root");
-define("DB_PASS", "");
+define("DSN", "mysql:host=mysql-driifti.alwaysdata.net;dbname=driifti_formation;charset=utf8");
+define("DB_USER", "driifti");
+define("DB_PASS", "Driifti1993!");
 
 //Liste des liens de la barre de navigation
 $navbarLinks = [
